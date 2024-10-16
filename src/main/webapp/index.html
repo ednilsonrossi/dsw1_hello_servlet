@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Buscador DSW1</title>
+	<link href="css/style2.css" rel="stylesheet">
+</head>
+<body>
+	<div class="search-container">
+        <h1>Buscador DSW1</h1>
+        <form action="busca.do" method="POST">
+            <input type="text" name="text_search" placeholder="Digite sua pesquisa...">
+            <div class="radio-options">
+                <input type="radio" id="google" name="engine" value="google" checked>
+                <label for="google">Google</label>
+                <input type="radio" id="duckduckgo" name="engine" value="duckduckgo">
+                <label for="duckduckgo">DuckDuckGo</label>
+                <input type="radio" id="bing" name="engine" value="bing">
+                <label for="bing">Bing</label>
+                <input type="radio" id="yahoo" name="engine" value="yahoo">
+                <label for="yahoo">Yahoo</label>
+            </div>
+            <br>
+            <input type="submit" value="Pesquisar">
+        </form>
+    </div>
+</body>
+</html>

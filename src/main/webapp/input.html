@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link href="css/style.css" rel="stylesheet">
+	<title>Cadastro de alunos</title>
+</head>
+<body>
+	<h2>Cadastro de Aluno</h2>
+    <form action="cadastro.do" method="POST">
+        <label for="dadosAluno">Insira os dados do aluno (Prontuário; Nome; Curso):</label>
+        <input type="text" id="dadosAluno" name="text_dados" placeholder="Ex: 12345; João da Silva; Ciência da Computação" required>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <p class="info">Formato esperado: Prontuário; Nome; Curso. Exemplo: 12345; João da Silva; Ciência da Computação</p>
+	<p><a href="cadastro.do">Consultar cadastro</a></p>
+</body>
+</html>
